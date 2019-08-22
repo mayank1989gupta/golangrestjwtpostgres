@@ -48,16 +48,6 @@ func main() {
 	}
 }
 
-//Method to handle the singup request
-func singup(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Successfully called signed!!"))
-}
-
-//Method to handle the login request
-func login(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Successfully called logged!!"))
-}
-
 //Method for protectedEndpoint -> would accessed by jwt token
 func protectedEndpoint(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("protectedEndpoint Invoked!")

@@ -10,6 +10,10 @@ Installation/SetUp
     go get github.com/lib/pq
 
     BCRYPT package: This is part of the go installation
+    or else : go get golang.org/x/crypto/bcrypt
+
+    Go Spew: Could be used for printing detailed struct formats
+    go get -u github.com/davecgh/go-spew/spew
 
 
 JWT
