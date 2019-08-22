@@ -49,3 +49,16 @@ PostGres SQL
         insert into users (email, password) values ('xyz@gmail.com', '123456');
     To select records:
         SELECT * FROM "public"."users"
+ 
+ Running the application
+ 
+    go build
+    ./go-jwt
+    
+    The services would available at port 8000
+    For example: 
+    POST: http://localhost:8000/singup
+    Sample Request Json: {
+	"email": "user6@abc.com",
+	"password": "1234"
+    }   
