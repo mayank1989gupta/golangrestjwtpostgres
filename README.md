@@ -15,6 +15,9 @@ Installation/SetUp
     Go Spew: Could be used for printing detailed struct formats
     go get -u github.com/davecgh/go-spew/spew
 
+    gotenv: To use the environment variables
+    go get github.com/subosito/gotenv
+
 
 JWT
 
